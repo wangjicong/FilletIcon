@@ -5,11 +5,24 @@
     android:orientation="vertical">
 
     <wangjicong.filleticon.FilletIcon
-        android:layout_marginTop="20dp"
         android:id="@+id/filleticon"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
         android:src="@drawable/filleticon_small" />
 
+    <wangjicong.filleticon.CircleIcon
+        android:id="@+id/view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/filleticon_small" />
+
+    <wangjicong.filleticon.Ring
+        android:id="@+id/ring"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
